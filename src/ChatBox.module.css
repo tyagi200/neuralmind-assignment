@@ -1,0 +1,25 @@
+.scroll {
+  overflow-y: scroll;
+  height: 400px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.textArea {
+  height: 50px;
+  padding: 10px;
+  resize: none;
+}
+
+.textArea::-webkit-scrollbar {
+  display: none;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
